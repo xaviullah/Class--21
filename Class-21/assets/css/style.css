@@ -1,0 +1,120 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+.header-top-area {
+    background: #2389e8 none repeat scroll 0 0;
+    color: #fff;
+    padding: 10px 0;
+}
+.header-top-area a {
+    color: #fff;
+    display: inline-block;
+}
+body {
+    font-size: 15px;
+    line-height: 1.7;
+}
+.header-top-area .text-right i.fa {
+    padding-left: 20px;
+}
+.header-top-area i {
+    margin-right: 5px;
+}
+.header-area h3 {
+    font-weight: 700;
+    margin: 25px 0;
+}
+.header-area h3 a {
+    color: #333;
+}
+.header-area ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.header-area ul li {
+    display: inline-block;
+}
+.header-area ul li a {
+    color: #333;
+    display: block;
+    padding: 25px 0 25px 30px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+.header-area ul li a:hover {
+    color: #2389e8;
+}
+
+.homepage-slider {
+    background: #2389e8 none repeat scroll 0 0;
+    color: #fff;
+}
+.single-homepage-slider h1 {
+    font-size: 50px;
+    font-weight: 100;
+}
+.slide-btn {
+    background: #fdd028 none repeat scroll 0 0;
+    border-radius: 2px;
+    color: #333;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 10px;
+    padding: 10px 23px;
+    text-transform: uppercase;
+}
+
+.single-homepage-slider {
+    padding: 150px 0;
+}
+
+.homepage-slider .owl-dots div {
+    background: #FFF;
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    margin: 5px;
+}
+.homepage-slider .owl-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+}
+.homepage-slider .owl-dots div.active {
+    background: #fdd028;
+}
